@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Deploy to server
-        uses: bitovi/github-actions-deploy-docker-to-ec2@v0.1.0
+        uses: bitovi/github-actions-deploy-docker-to-ec2@v1.0.1
         with:
           checkout: false
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID}}
