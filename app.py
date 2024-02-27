@@ -10,5 +10,10 @@ def home():
 def home():
     return "<p>Test</p>"
 
+@app.route("/info")
+def home():
+    import os
+    return os.uname()
+
 if __name__ == '__main__':
     app.run(debug=True)
