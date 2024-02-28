@@ -8,12 +8,12 @@ def home():
 
 
 @app.route("/test")
-def home():
+def test():
     return "<p>Test Server</p>"
 
 
 @app.route("/info")
-def home():
+def info():
     import os
     return os.uname()
 
