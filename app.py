@@ -17,5 +17,6 @@ def home():
     import os
     return os.uname()
 
+
 if __name__ == '__main__':
     app.run(debug=True)
