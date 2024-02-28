@@ -8,7 +8,7 @@ def home():
 
 @app.route("/test")
 def home():
-    return "<p>Test</p>"
+    return "<p>Test Server</p>"
 
 @app.route("/info")
 def home():
